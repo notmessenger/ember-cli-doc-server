@@ -1,25 +1,33 @@
-# Ember-cli-doc-server
 
-This README outlines the details of collaborating on this Ember addon.
+# What ember-cli-doc-server is
 
-## Installation
+By installing this Ember CLI Addon the content located in the `/docs` folder in your application will be available at
+the `/docs` url when serving the application via `ember server`.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
 
-## Running
+# How to use this addon in your application
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```
+ember install ember-cli-doc-server
+```
 
-## Running Tests
 
-* `ember test`
-* `ember test --server`
+# Versioning
+Employs [Semantic Versioning 2.0.0](http://semver.org/)
 
-## Building
 
-* `ember build`
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+# Contribution
+[See CONTRIBUTING.md](CONTRIBUTING.md)
+
+
+
+# Copyright and License
+ember-cli-doc-server and its source files are Copyright © 2015
+[SoftLayer Technologies, Inc.](http://www.softlayer.com/) The software is [MIT Licensed](LICENSE.md)
+
+
+
+# Warranty
+This software is provided “as is” and without any express or implied warranties, including, without limitation,
+the implied warranties of merchantability and fitness for a particular purpose.

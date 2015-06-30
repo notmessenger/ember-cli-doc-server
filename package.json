@@ -1,46 +1,38 @@
 {
   "name": "ember-cli-doc-server",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
+  "description": "Adds '/docs' url in application served by 'ember server' to load contents from 'docs' folder.",
   "scripts": {
-    "start": "ember server",
-    "build": "ember build",
-    "test": "ember try:testall"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "homepage": "https://github.com/softlayer/ember-cli-doc-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/softlayer/ember-cli-doc-server.git"
+  },
+  "bugs": "https://github.com/softlayer/ember-cli-doc-server/issues",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "broccoli-asset-rev": "^2.0.2",
-    "ember-cli": "0.2.7",
-    "ember-cli-app-version": "0.3.3",
-    "ember-cli-content-security-policy": "0.4.0",
-    "ember-cli-dependency-checker": "^1.0.0",
-    "ember-cli-htmlbars": "0.7.6",
-    "ember-cli-ic-ajax": "0.1.1",
-    "ember-cli-inject-live-reload": "^1.3.0",
-    "ember-cli-qunit": "0.3.13",
-    "ember-cli-uglify": "^1.0.1",
-    "ember-data": "1.0.0-beta.18",
-    "ember-disable-proxy-controllers": "^1.0.0",
-    "ember-export-application-global": "^1.0.2",
-    "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "0.0.6"
-  },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "documentation",
+    "docs",
+    "express",
+    "server"
   ],
-  "dependencies": {
-    "ember-cli-babel": "^5.0.0"
-  },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
-  }
+    "configPath": "tests/dummy/config",
+    "before": [
+      "serve-files-middleware",
+      "history-support-middleware",
+      "proxy-server-middleware"
+    ]
+  },
+  "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.0"
+  },
+  "devDependencies": {}
 }
