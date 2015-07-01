@@ -1,4 +1,9 @@
 
+[![Latest Release](https://img.shields.io/github/release/softlayer/ember-cli-doc-server.svg)](https://github.com/softlayer/ember-cli-doc-server/releases) ![Ember CLI version](https://img.shields.io/badge/ember%20cli-0.2.7-orange.svg) [![License](https://img.shields.io/npm/l/ember-cli-doc-server.svg)](LICENSE.md) [![Downloads](https://img.shields.io/npm/dm/ember-cli-doc-server.svg)](https://www.npmjs.com/package/ember-cli-doc-server)
+
+[![Dependencies](https://img.shields.io/david/softlayer/ember-cli-doc-server.svg)](https://david-dm.org/softlayer/ember-cli-doc-server) [![Dev Dependencies](https://img.shields.io/david/dev/softlayer/ember-cli-doc-server.svg)](https://david-dm.org/softlayer/ember-cli-doc-server#info=devDependencies)
+
+
 # What ember-cli-doc-server is
 
 By installing this Ember CLI Addon the content located in the `/docs` folder in your application will be available at
