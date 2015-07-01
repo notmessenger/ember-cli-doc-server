@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-doc-server",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An express middleware to add '/docs' url in application served by 'ember server' to load contents from 'docs' folder.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
