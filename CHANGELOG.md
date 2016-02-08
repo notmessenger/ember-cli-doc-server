@@ -2,6 +2,8 @@
 
 ### 1.1.0
 
+**INTERNAL**
+
 * Add badges to README.md
 
 [View complete changeset](https://github.com/softlayer/ember-cli-doc-server/compare/v1.0.0...v1.1.0)
