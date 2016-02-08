@@ -2,7 +2,7 @@
 
 ### 1.1.0
 
-**INTERNAL**
+**DOCUMENTATION**
 
 * Add badges to README.md
 
